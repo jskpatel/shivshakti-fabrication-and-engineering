@@ -52,9 +52,9 @@ export default function Hero() {
                     {slide.desc}
                   </p>
 
-                  <button className="mt-8 bg-orange-500 hover:bg-orange-600 transition px-8 py-4 rounded-xl font-bold">
+                  <a href="#portfolio" className="mt-8 inline-block text-[22px] bg-orange-500 hover:bg-orange-600 transition px-8 py-4 rounded-xl font-bold">
                     Explore Projects
-                  </button>
+                  </a>
                 </div>
               </div>
             </div>
