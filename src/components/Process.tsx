@@ -40,12 +40,12 @@ const stats = [
   },
   {
     value: "120+",
-    label: "PROJECTS COMPLETED",
+    label: "HAPPY CLIENTS",
   },
-  // {
-  //   value: "500+",
-  //   label: "SKILLED ENGINEERS",
-  // },
+  {
+    value: "500+",
+    label: "TASK COMPLETED",
+  },
   // {
   //   value: "28+",
   //   label: "COUNTRIES ACTIVE",
@@ -127,8 +127,8 @@ export default function Process() {
 
       {/* Bottom Stats */}
       <div className="bg-[#ff6f00]">
-        <div className="mx-auto max-w-[1600px] px-6 py-14 md:py-20">
-          <div className="grid grid-cols-2 gap-10 md:grid-cols-4">
+        <div className="mx-auto container-width px-6 py-14 md:py-20">
+          <div className="grid grid-cols-1 gap-16 md:grid-cols-3 mx-auto">
             {stats.map((item) => (
               <div key={item.label} className="text-center text-white">
                 <h3 className="text-5xl md:text-6xl lg:text-7xl font-extrabold">

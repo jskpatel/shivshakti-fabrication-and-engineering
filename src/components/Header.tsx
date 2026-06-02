@@ -21,7 +21,7 @@ export default function Header() {
     <header className="fixed top-0 z-50 w-full bg-[#020817]/80 backdrop-blur-lg border-b border-slate-800">
       <div className="container-width flex items-center justify-between py-5 px-6">
         <a href="https://shivshaktifabrication.vercel.app/" className="text-2xl font-black Capitalize text-orange-500">
-          <span className="tracking-[5px]">Shivshakti</span> <span className="md:text-xl text-[12px] block text-white">Fabrication & Engineering</span>
+          <span className="tracking-[5px]">Shivshakti</span> <span className="md:text-xl text-[14px] block text-white">Fabrication & Engineering</span>
         </a>
 
         <nav className="hidden md:flex gap-8">
