@@ -52,7 +52,7 @@ export default function Contact() {
 
                 <div>
                   <h4 className="lg:text-[28px] text-[20px]  font-semibold text-white">
-                    <a href="callto:9726764891">+91 97267 64891</a> / <a href="callto:9624963269">+91 96249 63269</a>
+                    <a href="callto:9998279796">+91 99982 79796</a> / <a href="callto:9624963269">+91 96249 63269</a>
                   </h4>
 
                   <p className="mt-1 text-[22px] text-[#6f7d9d]">
