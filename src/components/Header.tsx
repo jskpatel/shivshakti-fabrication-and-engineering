@@ -29,7 +29,7 @@ export default function Header() {
             <Link
               key={item}
               href={`#${item.toLowerCase()}`}
-              className="hover:text-orange-500 transition"
+              className="hover:text-orange-500 transition text-[20px]"
             >
               {item}
             </Link>

@@ -35,21 +35,21 @@ const processSteps = [
 
 const stats = [
   {
-    value: "30+",
+    value: "20+",
     label: "YEARS EXPERIENCE",
   },
   {
-    value: "1,000+",
+    value: "120+",
     label: "PROJECTS COMPLETED",
   },
-  {
-    value: "500+",
-    label: "SKILLED ENGINEERS",
-  },
-  {
-    value: "28+",
-    label: "COUNTRIES ACTIVE",
-  },
+  // {
+  //   value: "500+",
+  //   label: "SKILLED ENGINEERS",
+  // },
+  // {
+  //   value: "28+",
+  //   label: "COUNTRIES ACTIVE",
+  // },
 ];
 
 export default function Process() {

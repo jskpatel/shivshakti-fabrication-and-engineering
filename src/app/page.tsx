@@ -8,6 +8,7 @@ import Team from "@/components/Team";
 import Testimonials from "@/components/Testimonials";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
+import Portfolio from "@/components/Portfolio";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <About />
       <Services />
       <Process />
+      <Portfolio />
       <WhyChoose />
       <Team />
       <Testimonials />
