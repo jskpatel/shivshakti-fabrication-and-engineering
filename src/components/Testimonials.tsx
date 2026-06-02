@@ -1,40 +1,35 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Orbitron } from "next/font/google";
 import SectionTitle from "./SectionTitle";
-
-const orbitron = Orbitron({
-  subsets: ["latin"],
-});
 
 const testimonials = [
   {
-    initials: "AK",
-    name: "Amir Khalid",
-    role: "CEO, ArcelorMittal MENA",
+    initials: "MP",
+    name: "Mitesh Patel",
+    role: "Founder, Suraj Namkeen",
     review:
-      "IndustraX delivered our steel plant expansion project 3 weeks ahead of schedule. Their engineering precision and project management is unmatched in the industry.",
+      "Shivshakti Fabrication & Engineering delivered our steel plant expansion project 3 weeks ahead of schedule. Their engineering precision and project management is unmatched in the industry.",
   },
   {
-    initials: "LC",
-    name: "Laura Castillo",
-    role: "Operations Director, Aramco",
+    initials: "SS",
+    name: "Sachin Suthar",
+    role: "Operations Director, Ballet",
     review:
       "Their oil refinery engineering team handled complex challenges with remarkable expertise. 100% safety record maintained throughout the 18-month project. Highly recommended.",
   },
   {
-    initials: "TN",
-    name: "Tom Nguyen",
-    role: "GM, Rio Tinto Australia",
+    initials: "BG",
+    name: "Bhavin Gajjar",
+    role: "GM, Lal Gajjar, Rakhiyal",
     review:
-      "World-class mining equipment solutions that increased our operational efficiency by 34%. The IndustraX team understands what industrial clients truly need.",
+      "World-class mining equipment solutions that increased our operational efficiency by 34%. The Shivshakti Fabrication & Engineering team understands what industrial clients truly need.",
   },
 ];
 
 export default function Testimonials() {
   return (
-    <section className="bg-[#020d2b] py-28">
+    <section id="testimonials" className="bg-[#020d2b] py-28">
       <div className="mx-auto container-width px-6 lg:px-12">
 
         <SectionTitle
@@ -58,7 +53,7 @@ export default function Testimonials() {
               whileHover={{
                 y: -8,
               }}
-              className="flex h-[460px] flex-col rounded-sm border border-[#493427] bg-gradient-to-r from-[#0c1737] to-[#172744] px-12 py-12"
+              className="flex xl:h-[500px] h-auto flex-col rounded-sm border border-[#493427] bg-gradient-to-r from-[#0c1737] to-[#172744] md:px-12 px-8 py-12"
             >
               {/* Quote */}
               <div className={` text-[56px] leading-none text-[#ff7a14]`}>
@@ -66,7 +61,7 @@ export default function Testimonials() {
               </div>
 
               {/* Review */}
-              <p className="mt-8 flex-1 text-[20px] leading-[2] text-[#91a0bf]">
+              <p className="md:mt-8 flex-1 text-[20px] md:leading-[2] leading-[1.5] text-[#91a0bf]">
                 {item.review}
               </p>
 

@@ -7,12 +7,12 @@ import "swiper/css";
 
 const slides = [
   {
-    image: "/hero/1.jpg",
+    image: "/hero/1.jpeg",
     title: "Industrial Fabrication Excellence",
     desc: "Precision engineering and fabrication solutions."
   },
   {
-    image: "/hero/2.jpg",
+    image: "/hero/2.jpeg",
     title: "Heavy Engineering Projects",
     desc: "Advanced industrial infrastructure solutions."
   },

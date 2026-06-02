@@ -85,20 +85,7 @@ export default function WhyChoose() {
                     }}
                     className="flex items-start gap-5"
                   >
-                    <div
-                      className="
-                        flex
-                        h-[64px]
-                        w-[64px]
-                        shrink-0
-                        items-center
-                        justify-center
-                        rounded-md
-                        border
-                        border-[#694021]
-                        bg-[#111d3c]
-                      "
-                    >
+                    <div className="flex h-[64px] w-[64px] shrink-0 items-center justify-center rounded-md border border-[#694021] bg-[#111d3c]">
                       <Icon
                         size={30}
                         className="text-[#ff7a14]"
@@ -130,7 +117,7 @@ export default function WhyChoose() {
           >
             <div className="overflow-hidden rounded-sm border border-[#2a3553]">
               <Image
-                src="/images/industrial-factory.jpg"
+                src="/benchmark/benchmark.jpg"
                 alt="Industrial Facility"
                 width={900}
                 height={1100}

@@ -15,7 +15,7 @@ export default function About() {
   return (
     <section
       id="about"
-      className="bg-[#020817] text-white py-20 px-6 md:px-12 lg:px-20 overflow-hidden"
+      className="bg-[#020817] min-h-[80vh] flex flex-col justify-center text-white py-20 px-6 md:px-12 lg:px-20 overflow-hidden"
     >
       <div className="container-width mx-auto grid lg:grid-cols-2 gap-16 items-center">
         
@@ -29,7 +29,7 @@ export default function About() {
         >
           <div className="relative overflow-hidden rounded-md">
             <Image
-              src="/about/about-1.jpg"
+              src="/about/about.jpeg"
               alt="Fabrication Work"
               width={700}
               height={700}
@@ -46,11 +46,11 @@ export default function About() {
               duration: 3,
               repeat: Infinity,
             }}
-            className="absolute top-6 right-6 bg-orange-500 px-8 py-7 rounded-md shadow-2xl"
+            className="absolute md:top-6 top-0 md:right-6 right-0 bg-orange-500 md:px-8 px-4 py-7 rounded-md shadow-2xl md:scale-[1] scale-[0.6]"
           >
-            <h2 className="text-6xl font-black">30+</h2>
+            <h2 className="text-6xl font-black">20+</h2>
 
-            <p className="uppercase tracking-[4px] text-sm mt-2 leading-6">
+            <p className="uppercase tracking-[4px] md:text-sm text-xl mt-2 leading-6">
               Years Of <br /> Excellence
             </p>
           </motion.div>
@@ -113,7 +113,7 @@ export default function About() {
           </div>
 
           {/* BUTTON */}
-          <motion.button
+          {/* <motion.button
             whileHover={{
               scale: 1.05,
             }}
@@ -123,7 +123,7 @@ export default function About() {
             className="mt-12 bg-orange-500 hover:bg-orange-600 transition-all duration-300 px-10 py-5 uppercase tracking-[2px] font-bold rounded-md shadow-lg"
           >
             Learn More About Us
-          </motion.button>
+          </motion.button> */}
         </motion.div>
       </div>
     </section>

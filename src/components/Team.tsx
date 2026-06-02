@@ -5,22 +5,22 @@ import { motion } from "framer-motion";
 
 const teamMembers = [
   {
-    name: "Sanjay Patel",
-    role: "Operations Head",
-    image: "/images/sanjay-patel.jpg",
-    description: "Oversees manufacturing operations, project execution and quality control."
-  },
-  {
     name: "Alpesh Patel",
     role: "Founder & Director",
-    image: "/images/alpesh-patel.jpg",
-    description: "10+ years leading fabrication and engineering projects across Gujarat."
+    image: "/team/alpesh-patel.png",
+    description: "20+ years leading fabrication and engineering projects across Gujarat."
+  },
+  {
+    name: "Sanjay Patel",
+    role: "Operations Head",
+    image: "/team/sanjay-patel.png",
+    description: "Oversees manufacturing operations, project execution and quality control."
   },
 ];
 
 export default function Team() {
   return (
-    <section className="bg-[#020d2b] py-28">
+    <section id="team" className="bg-slate-950 py-28">
       <div className="mx-auto container-width px-6 lg:px-12">
         {/* Heading */}
         <div className="mb-24 text-center">
@@ -45,7 +45,7 @@ export default function Team() {
           {teamMembers.map((member, index) => (
             <motion.div
               key={member.name}
-              initial={{ opacity: 0, y: 40 }}
+              initial={false}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{
@@ -55,15 +55,7 @@ export default function Team() {
               whileHover={{
                 y: -8,
               }}
-              className="
-                overflow-hidden
-                rounded-sm
-                border
-                border-[#493427]
-                bg-gradient-to-r
-                from-[#0c1737]
-                to-[#172744]
-              "
+              className="overflow-hidden rounded-sm border border-[#493427] bg-gradient-to-r from-[#0c1737] to-[#172744]"
             >
               {/* Image */}
               <div className="relative h-[420px] overflow-hidden">
@@ -71,7 +63,7 @@ export default function Team() {
                   src={member.image}
                   alt={member.name}
                   fill
-                  className="object-cover transition-transform duration-500 hover:scale-105"
+                  className="object-cover position-top object-top transition-transform duration-500 hover:scale-105"
                 />
 
                 {/* Dark Overlay */}
@@ -81,7 +73,7 @@ export default function Team() {
               {/* Content */}
               <div className="p-8">
                 <h3
-                  className={`text-[30px] text-white`}
+                  className={`text-[30px] font-bold text-white`}
                 >
                   {member.name}
                 </h3>

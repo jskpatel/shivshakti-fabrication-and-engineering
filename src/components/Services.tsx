@@ -4,7 +4,10 @@ import { motion } from "framer-motion";
 import SectionTitle from "./SectionTitle";
 import {
   FaIndustry,
-  FaTools,
+  FaClipboardCheck,
+  FaMicroscope,
+  FaDolly,
+  FaCog,
   FaHardHat,
 } from "react-icons/fa";
 
@@ -15,22 +18,22 @@ const services = [
     description: "Large-scale industrial manufacturing and precision engineering solutions built to global standards."
   },
   {
-    icon: <FaTools />,
+    icon: <FaClipboardCheck />,
     title: "Quality & Safety",
     description: "Rigorous quality assurance protocols and safety management systems meeting international standards."
   },
   {
-    icon: <FaHardHat />,
+    icon: <FaMicroscope />,
     title: "Engineering R&D",
     description: "Advanced research and development driving next-generation industrial technologies and innovations."
   },
   {
-    icon: <FaHardHat />,
+    icon: <FaDolly />,
     title: "Material Handling",
     description: "Conveyor systems, stackers, reclaimers and ship loaders for bulk commodities like coal, iron ore and copper."
   },
   {
-    icon: <FaHardHat />,
+    icon: <FaCog />,
     title: "Maintenance & Rebuilds",
     description: "Component rebuild programs, on‑site machining, and fleet maintenance contracts to reduce downtime."
   },
@@ -45,7 +48,7 @@ export default function Services() {
   return (
     <section
       id="services"
-      className="section-padding bg-slate-950"
+      className="section-padding bg-[#03132E]"
     >
       <div className="container-width">
         <SectionTitle

@@ -10,10 +10,7 @@ import { IoPaperPlaneOutline } from "react-icons/io5";
 
 export default function Contact() {
   return (
-    <section
-      id="contact"
-      className="relative overflow-hidden bg-[#020d2b] py-24"
-    >
+    <section id="contact" className="relative bg-slate-950 pb-24 pt-36">
       <div className="mx-auto container-width px-6 lg:px-12">
         <div className="grid gap-20 lg:grid-cols-2 lg:gap-24">
           {/* LEFT SIDE */}
@@ -22,6 +19,7 @@ export default function Contact() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.7 }}
+            className="!w-full !w-100"
           >
             <span className="text-[13px] font-semibold uppercase tracking-[7px] text-[#ff7a14]">
               GET IN TOUCH
@@ -30,16 +28,16 @@ export default function Contact() {
             <div className="mt-6 h-[4px] w-[82px] bg-[#ff7a14]" />
 
             <h2 className="mt-12 leading-none">
-              <span className="block text-[60px] font-black text-white xl:text-[82px]">
+              <span className="block text-[54px] font-black text-white xl:text-[80px]">
                 Request an
               </span>
 
-              <span className="mt-3 block text-[60px] font-black text-[#ff7a14] xl:text-[82px]">
+              <span className="mt-3 block font-black text-[#ff7a14] text-4xl md:text-6xl">
                 Industrial Quote
               </span>
             </h2>
 
-            <p className="mt-10 max-w-[700px] text-[22px] leading-[1.8] text-[#8b99b8]">
+            <p className="mt-10 md:max-w-[700px] text-[22px] leading-[1.8] text-[#8b99b8]">
               Tell us about your project requirements. Our engineering team
               will analyze and provide a detailed proposal within 48 hours.
             </p>
@@ -53,7 +51,7 @@ export default function Contact() {
                 />
 
                 <div>
-                  <h4 className="text-[28px] font-semibold text-white">
+                  <h4 className="lg:text-[28px] text-[20px]  font-semibold text-white">
                     <a href="callto:9726764891">+91 97267 64891</a> / <a href="callto:9624963269">+91 96249 63269</a>
                   </h4>
 
@@ -71,8 +69,8 @@ export default function Contact() {
                 />
 
                 <div>
-                  <h4 className="text-[28px] font-semibold text-white">
-                    info@shivshaktifabrication.com
+                  <h4 className="lg:text-[28px] text-[20px] font-semibold text-white break-all" style={{}}>
+                    shivshaktifabrication653@gmail.com
                   </h4>
 
                   <p className="mt-1 text-[22px] text-[#6f7d9d]">
@@ -89,7 +87,7 @@ export default function Contact() {
                 />
 
                 <div>
-                  <h4 className="max-w-[550px] text-[28px] font-semibold text-white">
+                  <h4 className="md:max-w-[550px] lg:text-[28px] text-[20px]  font-semibold text-white">
                     Shivshakti Fabrication & Engineering
                   </h4>
 
@@ -114,7 +112,7 @@ export default function Contact() {
             <div className="absolute left-0 top-0 h-[55px] w-[55px] border-l-[4px] border-t-[4px] border-[#ff7a14]" />
 
             <h3 className="mb-12 text-[42px] font-bold text-white">
-              Industrial Quote Request
+              Quote Request
             </h3>
 
             <form className="space-y-8">

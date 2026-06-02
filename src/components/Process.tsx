@@ -54,9 +54,10 @@ const stats = [
 
 export default function Process() {
   return (
-    <section className="w-full overflow-hidden">
+    <section
+      id="process" className="w-full overflow-hidden pt-10">
       {/* Top Section */}
-      <div className="bg-[#03132E] text-white">
+      <div className="bg-slate-950 text-white">
         <div className="mx-auto max-w-[1600px] px-6 py-16 lg:py-24">
           {/* Header */}
           <div className="text-center">
