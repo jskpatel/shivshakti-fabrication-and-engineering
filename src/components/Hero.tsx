@@ -53,7 +53,7 @@ export default function Hero() {
                   </p>
 
                   <a href="#portfolio" className="mt-8 inline-block text-[22px] bg-orange-500 hover:bg-orange-600 transition px-8 py-4 rounded-xl font-bold">
-                    Explore Projects
+                    Type of Works
                   </a>
                 </div>
               </div>
